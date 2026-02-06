@@ -47,10 +47,11 @@
             // listBoxResults
             // 
             listBoxResults.BackColor = SystemColors.InactiveCaption;
-            listBoxResults.ItemHeight = 15;
+            listBoxResults.Font = new Font("Segoe UI", 15.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            listBoxResults.ItemHeight = 30;
             listBoxResults.Location = new Point(195, 108);
             listBoxResults.Name = "listBoxResults";
-            listBoxResults.Size = new Size(382, 229);
+            listBoxResults.Size = new Size(382, 214);
             listBoxResults.TabIndex = 0;
             listBoxResults.SelectedIndexChanged += listBoxResults_SelectedIndexChanged;
             // 

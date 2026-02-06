@@ -8,4 +8,10 @@
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
 
+  <ItemGroup>
+    <!-- Removed MSTest package reference: test frameworks can introduce their own entry point/Main
+         and should not be referenced from a WinForms application project. Add test packages
+         only to dedicated test projects. -->
+  </ItemGroup>
+
 </Project>
